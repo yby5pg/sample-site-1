@@ -1,0 +1,48 @@
+
+<header class="site-header">
+  <h1 class="site-title">FIRSTNAME LASTNAME</h1>
+  <nav class="nav-bar">
+    <a href="/">Home</a>
+    <a href="/headshot-resume">Headshot + Resume</a>
+    <a href="/reels">Reels</a>
+    <a href="/stills">Stills</a>
+    <a href="/contact">Contact</a>
+  </nav>
+</header>
+
+<style>
+  .site-header {
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+  }
+
+  .site-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    border-top: 1px solid var(--border-light, #e5e5e5);
+    border-bottom: 1px solid var(--border-light, #e5e5e5);
+    padding: 0.75rem 0;
+  }
+
+  .nav-bar a {
+    color: var(--text-muted, #666);
+    text-decoration: none;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .nav-bar a:hover {
+    color: var(--text-main, #000);
+  }
+</style>

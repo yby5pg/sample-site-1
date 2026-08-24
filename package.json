@@ -1,0 +1,16 @@
+{
+  "name": "sample-site-1",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@sanity/client": "^8.2.0",
+    "astro": "^4.0.0"
+  }
+}
